@@ -197,3 +197,11 @@
 - Later on in this month, we moved to the DSL. Goal is develop a DSL which let the user perform these operations on the DOM. This DSL will help in unifying the interface of SSS project into a easy to use language.
 - I discovered ANTLR4 to be very helpful in designing an interpreter.
 - After several discussions with Sai sir, we both (Sai and me) figured out a potential grammar for SSS.
+
+-------------------------------------------------------
+* Month of September
+** Week 1
+  - Read ANTLR4 book and implement code examples provided in it.
+  - Started developing a grammar for our own language.
+  - Most of the time spent in making the grammar more robust and decreasing the lookahead problem.
+  - This problem occured because we generialized the grammar too much. This leaves the Parser predicting the semantics of given statement. To predict the correct semantics it has to traverse through multiple routes in the syntax tree.
