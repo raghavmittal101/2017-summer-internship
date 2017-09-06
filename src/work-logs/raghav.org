@@ -180,3 +180,20 @@
     - To tackle such problem, I started exploring possibilities in MEAN stack.
     - I am able to use libraries - `PhantomJS` and `CasperJS` for successfully scraping websites.
     - CasperJS is a layer on top of PhantonJS, with bare PhantomJS I was not able to open websites on which scraping is not allowed.
+-------------------------------------------------------
+* Month of August
+** summary
+- After exploring MEAN stack and PhantomJS for webscraping in headless browser. Finally I settled with Headless Chrome browser.
+- Not using PhantomJS because it has a lot of issues in setting up with proxy.
+- Also it is less frequently mantained as compared to Chrome.
+- Made a small application in python which with Selenium webdrivers to run chrome.
+- Also developed a small API in flask which let the sss-maker and sss-renderer interact with python app.
+- Apart from this, I developed a JS library to perform different operations like (Add, delete, processing) on a DOM.
+- This library is add to the website when it is opened in headless browser. JS library acts as a tool to perform all the tasks as mentioned in documents by Sai sir.
+- Me and Sadhana started to integrate our work (mine SSS-Renderer and her's SSS-Maker) and deploy it online. But there were some issues in that. After debugging her's and mine code, we found that Headless chrome was the culprit.
+- Running headless chrome in local machine is not an issue but to run it inside a container requires some other libraries to be added like 'python view'.
+- While troubleshooting this I came accross similar problem asked on stackoverflow and where I found that the best solution to this is PhantomJS but ;( it never worked for us, because it is not able to recognize the proxy settings.
+- For now we have kept it aside as low prioprity and I am working on DSL.
+- Later on in this month, we moved to the DSL. Goal is develop a DSL which let the user perform these operations on the DOM. This DSL will help in unifying the interface of SSS project into a easy to use language.
+- I discovered ANTLR4 to be very helpful in designing an interpreter.
+- After several discussions with Sai sir, we both (Sai and me) figured out a potential grammar for SSS.
