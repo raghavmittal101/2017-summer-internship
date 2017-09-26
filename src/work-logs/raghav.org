@@ -205,3 +205,8 @@
   - Started developing a grammar for our own language.
   - Most of the time spent in making the grammar more robust and decreasing the lookahead problem.
   - This problem occured because we generialized the grammar too much. This leaves the Parser predicting the semantics of given statement. To predict the correct semantics it has to traverse through multiple routes in the syntax tree.
+** Week 2 -> Week 3
+  - Developed a working prototype of DSL.
+  - Integrated the prototype with SSS-Renderer to create a webpage.
+  - Faced issues in refining the DSL to add more flexibility in user input.
+  - Have started implementing support for macros in DSL.
