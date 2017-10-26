@@ -210,3 +210,26 @@
   - Integrated the prototype with SSS-Renderer to create a webpage.
   - Faced issues in refining the DSL to add more flexibility in user input.
   - Have started implementing support for macros in DSL.
+** Summary
+  - Interpreter part of DSL successfully done.
+  - Started working on implementation of preprocessor.
+  - Spent week 4 in implementing preprocessor.
+  - Later due to difficulties in implementation, I left that work and parked aside for implementing it later.
+
+* Month of October
+** Summary
+  - The major task which was assigned in this month was to develop an IDE for DSL.
+  - Explored different approaches.
+    - Kanvas IDE (converts ANTLR grammar files into Kotlin based IDE)
+    - Textmate Language files (tmLanguage files for syntax highlighting in Atom, VSCode and Sublime)
+    - DSL Forge (converts ANTLR grammar files into web IDE based on Java and Ace editor)
+    - DSL Forge editor
+      - Our grammar files are written in ANTLR4 but DSL forge requires ANTLR3 grammar. So I converted the files in ANTLR3 but after everything went smooth, the webeditor was not working properly due to issues in auto-generated javascript code.
+      - Tried to fix the issues but it consumed lot of time and didn't work.
+    - Kanvas IDE
+      - Kanvas IDE is written in Kotlin. I am new to Kotlin language. It took some time to setup the environment in eclipse.
+      - I think that it will work but for now I have parked it aside. I am searching for some code snippets and methods which are discussed in the Kanvas documentation.
+    - Textmate Language
+      - Textmate language is a JSON and XML like language for defining an AST. This language is used in VS code, Atom, Sublime for syntax highlihgting. But it alone is not sufficient to for adding syntax highlighting to these editors. With this there are different manifest and code snippet samples are also required. 
+      - Moreover, tmLanguage has a long documentation and many keywords. I am learning it and probably will do it later.
+  - Presently, I have started working on DSL enhancement for supporting full SSS system which includes =modification=, =annotation=, =reassembling= and =styling=. Currently, it only supports =modification= component.
