@@ -234,8 +234,8 @@
       - Moreover, tmLanguage has a long documentation and many keywords. I am learning it and probably will do it later.
   - Presently, I have started working on DSL enhancement for supporting full SSS system which includes =modification=, =annotation=, =reassembling= and =styling=. Currently, it only supports =modification= component.
   
-  * Month of November
-  ** Summary
+* Month of November
+** Summary
     - In the first week of this month, I was working on DSL enhancement, which includes integration of the M.A.R.S. components of the SSS systems. 
     - Later, this task was transferred to Sadhna.
     - I am working on Ontologies definations using ADT graphs.
