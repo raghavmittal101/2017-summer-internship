@@ -236,8 +236,12 @@
   
 * Month of November
 ** Summary
-    - In the first week of this month, I was working on DSL enhancement, which includes integration of the M.A.R.S. components of the SSS systems. 
+    - In the first week of this month, I was working on DSL enhancement, which was about the integration of the M.A.R.S. components of the SSS systems. 
     - Later, this task was transferred to Sadhna.
-    - I am working on Ontologies definations using ADT graphs.
+    - Knowledge transfer to Sadhna is also in progress.
+    - In the current task, I am developing a program for defining ontologies using ADT(graphs).
     - For building a graph, I found several libraries in Python.
-    - I chose NetworkX for development purpose, because it creates graphs and vizualizations in graphviz files.
+      - I chose NetworkX for development purpose, because it gives flexibility to create objects as nodes and generate graphs and vizualizations in different formats and styles.    
+      - NetworkX is widely used and lots of support material is available online.
+    - I have not made much progress so far.
+    - I am also reconsidering the option of creating the graphs from scratch because the kind of features which are required are not available in the NetworkX API. I am still exploring the API and also trying to work around the algorithm for meeting the requirements.
