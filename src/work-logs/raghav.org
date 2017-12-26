@@ -245,3 +245,9 @@
       - NetworkX is widely used and lots of support material is available online.
     - I have not made much progress so far.
     - I am also reconsidering the option of creating the graphs from scratch because the kind of features which are required are not available in the NetworkX API. I am still exploring the API and also trying to work around the algorithm for meeting the requirements.
+
+* Month of December [Week 1 & 2]
+** Summary
+  - In the last month of internship, I spent most of the days in knowledge transfer about SSS-DSL.
+  - I was also involved in the integration of the SSS-Framework with DSL and other components of M.A.R.S..
+  - Second week was spent in writing project report and discussing narratives.
